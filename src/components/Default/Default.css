@@ -1,0 +1,48 @@
+/* Ensure the section takes up the full height of the viewport */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center align text */
+  }
+  
+  .avatar-img {
+    width: 60px; /* Fixed width for the avatar image */
+    height: 80px; /* Fixed height for the avatar image */
+    border-radius: 50%; /* Circular shape for the avatar */
+    object-fit: cover; /* Ensure the image covers the entire circle */
+    margin-bottom: 10px; /* Space below the image */
+    border: 3px solid #00c7d2; /* Border color around the avatar */
+  }
+  
+  .heading {
+    font-size: 24px; /* Font size for the heading */
+    color: #333; /* Dark grey color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .paragraph {
+    font-size: 16px; /* Font size for the paragraph */
+    color: #666; /* Medium grey color for the paragraph text */
+    line-height: 1.5; /* Improved readability with line height */
+    margin: 0; /* Remove default margin */
+  }
+  

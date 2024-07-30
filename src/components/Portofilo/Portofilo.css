@@ -1,0 +1,38 @@
+/* Ensure images are contained properly */
+.portfolio img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Make sure the parent container is positioned relative for absolute positioning of overlay */
+  .relative {
+    position: static;
+  }
+  
+  /* Style for the overlay layer */
+  .overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    /* Position the overlay over the image */
+    position: absolute;
+    z-index: 10; /* Make sure it appears above the image */
+  }
+  
+  .group:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay span {
+    font-size: 3rem; /* Size of the + sign */
+    color: white;
+  }
+  

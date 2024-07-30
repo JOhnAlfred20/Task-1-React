@@ -1,0 +1,21 @@
+.custom-div {
+    background-color: #48c7b6;
+    height: 80vh;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.custom-div h2 {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-div p {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

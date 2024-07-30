@@ -1,0 +1,11 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    margin: 15px;
+  /* Adjusts spacing around the row */
+  }

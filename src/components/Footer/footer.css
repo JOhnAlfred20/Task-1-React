@@ -1,0 +1,19 @@
+/* src/components/Footer/Footer.css */
+.footer {
+    background-color: #1b252f; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align text */
+    padding: 20px; 
+ /* position: fixed;  */
+    bottom: 0;
+    left: 0;
+    right: 0; /* Align to the bottom of the viewport
+    width: 100%; /* Full width */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Optional: add shadow for a subtle effect */
+  
+}
+
+.footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Adjust font size */
+}
